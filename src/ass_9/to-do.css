@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(41, 58, 8);
+    font-size: 4rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn{
+    border: 2px solid yellowgreen;
+    background: #c1e37c;
+    border: radius;
+    border-radius: 8px;
+}
+
+li{
+    list-style-type: none;
+    border: 2px solid white;
+    height: 54px;
+    width: 645px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    background: white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.task{
+    height: 51px;
+    width: 261px;
+}
+
+#btn{
+    height: 36px;
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 19px;
+    margin-left: 21px;
+}
+
+
+span{
+    display: flex;
+    flex: 1;
+    font-size: 21px;
+    padding-left: 24px;
+}
+
+.edit{
+    height: 31px;
+    width: 64px;
+    border: 1px solid biege;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    margin-right: 20px;
+    border: 2px solid yellowgreen;
+    background: #c1e37c;
+}
+
+ul{
+    background: gray;
+    /* padding: 15px 15px; */
+}
